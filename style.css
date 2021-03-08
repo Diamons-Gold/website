@@ -1,0 +1,33 @@
+:root {
+	--bk-color :rgba(24,24,24,255);
+	--ban-color : rgba(224,0,0,255);
+}
+
+html {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: var(--bk-color);
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+
+header {
+	background-color: var(--ban-color);
+	display: flex;
+	justify-content: space-between;
+	padding: -10;
+	position: static;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 100px;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
